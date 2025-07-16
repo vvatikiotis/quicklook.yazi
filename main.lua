@@ -23,7 +23,8 @@ return {
 		      osascript -e 'tell application "Finder" to activate' -e 'tell application "Finder" to select POSIX file "]] .. url .. [["' -e 'tell application "System Events" to keystroke "y" using {command down}'
 		    ]]
 			ya.manager_emit("shell", {
-				osascript_cmd,
+				-- osascript_cmd,
+				"open " .. filename,
 				block = false,
 				orphan = true,
 				confirm = true,
