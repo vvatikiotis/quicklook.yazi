@@ -3,7 +3,7 @@
 To install, clone the repo, or
 
 ```shell
-ya pack -a vvatikiotis/quicklook
+ya pkg add vvatikiotis/quicklook
 ```
 
 To use, add the following keymap to 'keymap.toml':
